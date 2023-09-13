@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Bangers', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 16px;
+    padding-top: 50px;
+    
+}
+
+.header{
+    display: flex;
+    padding-bottom: 20px;
+        
+}
+
+.navigation{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-left: 600px;
+}
+
+
+
+ul{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    list-style: none;
+    color: gray;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+li{
+    margin-left: 30px;
+}
+
+.maincontent{
+    display: flex;
+    gap: 15px;
+}
+
+.maincontent_part1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.maincontent_part1 h1{
+    font-size: 50px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.maincontent_part1 p{
+    font-size: 20px;
+    padding-left: 320px;
+    width: 800px;
+    margin-top: -170px;
+    text-align: left;
+    color: darkgray;
+    font-weight: 600;
+}
+
+button{
+    width: 120px;
+    padding: 10px;
+    margin-left: 320px;
+    margin-top: 15px;
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    
+
+}
+
+[alt="MainImage"]{
+    width: 850px;
+    border-radius: 15px;
+    height: 300px;
+}
+
+.maincontent_part2{
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    border-radius: 10px;
+    
+}
+.maincontent_part2 h1{
+    color: hsl(35, 77%, 62%);
+    font-size: 50px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+
+
+.first{
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-left: -5px;
+}
+.second{
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-left: -5px;
+}
+.third{
+    
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-left: -5px;
+}
+
+.first p{
+    width: 290px;
+    color: darkgray;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.second p{
+    width: 290px;
+    color: darkgray;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.third p{
+    width: 290px;
+    color: darkgray;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.below{
+    padding-top: 50px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    align-content: space-around;
+    gap: 10px;
+}
+
+[alt="RetroPC"]{
+    height: 150px;
+    width: 120px;
+}
+
+[alt="Top Laptops"]{
+    height: 150px;
+    width: 120px;
+}
+[alt="Gaming Growth"]{
+    height: 150px;
+    width: 120px;
+}
+
+.class1_one, .class2_two, .class3_three{
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+    margin-top: -150px
+}
+
+.below p{
+    font-size: 30px;
+    color: darkgray;
+    font-weight: bold;
+    padding-bottom: 10px;
+
+}
+
+.below h1{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.below h2{
+    font-size: 15px;
+    color: darkgray;
+    padding-bottom: 10px;
+    width: 200px;
+}
+
+
+.attribution{
+    margin-top: 50px;
+}
